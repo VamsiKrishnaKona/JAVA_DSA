@@ -2,7 +2,6 @@ package LL;
 
 public class LinkedList
 {
-
     private Node head;
     private Node tail;
     private int size;
@@ -104,7 +103,5 @@ public class LinkedList
             this.value = value;
             this.next = next;
         }
-
-
     }
 }
