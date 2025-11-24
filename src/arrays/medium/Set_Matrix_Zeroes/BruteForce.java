@@ -1,10 +1,6 @@
 package arrays.medium.Set_Matrix_Zeroes;
 
-<<<<<<< HEAD
-=======
 import java.util.Arrays;
-
->>>>>>> origin/krishna
 public class BruteForce
 {
     public static void main(String[] args)
