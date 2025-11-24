@@ -1,5 +1,4 @@
 package linearSearch;
-import java.util.*;
 
 public class LinearSearch_INT
 {

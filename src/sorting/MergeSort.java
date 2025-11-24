@@ -1,6 +1,7 @@
 package sorting;
-import java.util.*;
-import java.lang.*;
+
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class    MergeSort
 {

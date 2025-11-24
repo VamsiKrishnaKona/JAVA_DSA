@@ -1,6 +1,6 @@
 package arrays.easy;
 
-import java.util.*;
+import java.util.Arrays;
 
 import static java.lang.Math.max;
 import static java.lang.Math.min;

@@ -1,6 +1,6 @@
 package binarySearch.medium.aggressiveCows;
 
-import java.util.*;
+import java.util.Arrays;
 
 public class Optimal
 {

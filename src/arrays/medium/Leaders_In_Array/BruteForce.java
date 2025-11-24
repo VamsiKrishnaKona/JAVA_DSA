@@ -1,7 +1,6 @@
 package arrays.medium.Leaders_In_Array;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class BruteForce
 {

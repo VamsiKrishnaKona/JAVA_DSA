@@ -1,7 +1,5 @@
 package binarySearch.Easy;
 
-import java.util.List;
-
 public class CountOccurrenceOfNumber
 {
     public static void main(String[] args)

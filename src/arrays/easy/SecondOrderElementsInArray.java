@@ -1,6 +1,7 @@
 package arrays.easy;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class SecondOrderElementsInArray
 {

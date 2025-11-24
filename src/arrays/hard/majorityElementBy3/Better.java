@@ -2,7 +2,6 @@ package arrays.hard.majorityElementBy3;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public class Better
 {

@@ -1,6 +1,6 @@
 package arrays.medium.Longest_Consecutive_Sequence;
 
-import java.util.*;
+import java.util.HashSet;
 
 public class Optimal
 {

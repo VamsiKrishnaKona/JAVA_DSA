@@ -1,7 +1,5 @@
 package arrays.medium.Set_Matrix_Zeroes;
 
-import java.util.Arrays;
-
 public class BruteForce
 {
     public static void main(String[] args)
