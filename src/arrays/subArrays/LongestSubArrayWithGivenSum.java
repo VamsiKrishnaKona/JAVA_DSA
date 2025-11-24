@@ -1,7 +1,12 @@
 package arrays.subArrays;
 
 //this code works when array contains +ves, -ves
+<<<<<<< HEAD
+
+import java.util.HashMap;
+=======
 import java.util.*;
+>>>>>>> origin/krishna
 
 public class LongestSubArrayWithGivenSum
 {

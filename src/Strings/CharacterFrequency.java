@@ -1,6 +1,11 @@
 package Strings;
 
+<<<<<<< HEAD
+import java.util.HashMap;
+import java.util.Map;
+=======
 import java.util.*;
+>>>>>>> origin/krishna
 
 public class CharacterFrequency
 {

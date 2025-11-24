@@ -7,11 +7,21 @@ public class SortedMatrixSearch
     public static void main(String[] args)
     {
         int[][] arr = {
+<<<<<<< HEAD
+                {1, 4 , 7, 11, 15},
+                {2, 5, 8, 12, 19},
+                {3, 6, 9, 16, 22},
+                {10, 13, 14, 17, 24},
+                {18, 21, 23, 26, 30}
+        };
+        int target = 14;
+=======
                 {1,2,3},
                 {4,5,6},
                 {7,8,9}
         };
         int target = 9;
+>>>>>>> origin/krishna
         System.out.println(Arrays.toString(search(arr, target)));
     }
 

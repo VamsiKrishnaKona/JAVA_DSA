@@ -1,7 +1,10 @@
 package arrays.hard.findMissingNumberAndRepeatingNumber;
 
+<<<<<<< HEAD
+=======
 import java.util.Arrays;
 
+>>>>>>> origin/krishna
 public class Optimal
 {
     public static void main(String[] args)

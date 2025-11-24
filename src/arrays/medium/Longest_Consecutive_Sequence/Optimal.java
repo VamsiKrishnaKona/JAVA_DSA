@@ -1,6 +1,10 @@
 package arrays.medium.Longest_Consecutive_Sequence;
 
+<<<<<<< HEAD
+import java.util.HashSet;
+=======
 import java.util.*;
+>>>>>>> origin/krishna
 
 public class Optimal
 {

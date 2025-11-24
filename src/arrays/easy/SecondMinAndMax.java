@@ -1,6 +1,10 @@
 package arrays.easy;
 
+<<<<<<< HEAD
+import java.util.Arrays;
+=======
 import java.util.*;
+>>>>>>> origin/krishna
 
 import static java.lang.Math.max;
 import static java.lang.Math.min;

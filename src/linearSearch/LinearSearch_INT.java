@@ -1,5 +1,8 @@
 package linearSearch;
+<<<<<<< HEAD
+=======
 import java.util.*;
+>>>>>>> origin/krishna
 
 public class LinearSearch_INT
 {

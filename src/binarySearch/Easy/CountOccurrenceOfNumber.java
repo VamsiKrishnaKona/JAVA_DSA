@@ -1,7 +1,10 @@
 package binarySearch.Easy;
 
+<<<<<<< HEAD
+=======
 import java.util.List;
 
+>>>>>>> origin/krishna
 public class CountOccurrenceOfNumber
 {
     public static void main(String[] args)
