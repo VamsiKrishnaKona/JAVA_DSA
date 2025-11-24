@@ -1,7 +1,11 @@
 package arrays.array_Rotations;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.Arrays;
+=======
+import java.util.*;
+>>>>>>> origin/krishna
 
 public class MoveZeroesToEndTwo
 {

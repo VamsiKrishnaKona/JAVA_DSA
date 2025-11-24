@@ -2,6 +2,10 @@ package arrays.hard.majorityElementBy3;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+<<<<<<< HEAD
+=======
+import java.util.List;
+>>>>>>> origin/krishna
 
 public class Better
 {

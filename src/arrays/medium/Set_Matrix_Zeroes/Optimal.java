@@ -1,5 +1,11 @@
 package arrays.medium.Set_Matrix_Zeroes;
 
+<<<<<<< HEAD
+=======
+import java.util.ArrayList;
+import java.util.Collections;
+
+>>>>>>> origin/krishna
 public class Optimal
 {
     private static void setMatrixZeroes(int[][] mat)
