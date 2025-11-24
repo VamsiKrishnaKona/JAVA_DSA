@@ -4,7 +4,7 @@ public class Optimal
 {
     public static void main(String[] args)
     {
-        double x = 2.0;
+        double x = 3.0;
         int n = 10;
 
         double power = findPow(x,n);
