@@ -2,9 +2,6 @@ package binarySearch.medium.aggressiveCows;
 
 import java.util.Arrays;
 
-import java.util.*;
-
-
 public class Optimal
 {
     private static boolean possible(int[] nums, int cows, int distance)

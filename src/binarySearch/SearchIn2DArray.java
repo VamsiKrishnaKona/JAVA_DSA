@@ -12,11 +12,7 @@ public class SearchIn2DArray
                 {33, 34, 38, 50}
         };
 
-<<<<<<< HEAD
         int target = 50;
-=======
-        int target = 37;
->>>>>>> origin/krishna
 
         System.out.println(Arrays.toString(search(arr,target)));
 
@@ -25,15 +21,9 @@ public class SearchIn2DArray
     static int[] search(int[][] matrix, int target)
     {
         int r = 0;
-<<<<<<< HEAD
         int c = matrix[0].length - 1;
 
         while(r <= matrix.length - 1 && c >= 0)
-=======
-        int c = matrix.length - 1;
-
-        while(r < matrix.length - 1 && c >= 0)
->>>>>>> origin/krishna
         {
             if(matrix[r][c] == target)
             {

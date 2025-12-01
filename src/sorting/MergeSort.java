@@ -1,12 +1,7 @@
 package sorting;
-<<<<<<< HEAD
 
 import java.util.Arrays;
 import java.util.Scanner;
-=======
-import java.util.*;
-import java.lang.*;
->>>>>>> origin/krishna
 
 public class    MergeSort
 {

@@ -1,11 +1,7 @@
 package sorting;
 
-<<<<<<< HEAD
 import java.util.Arrays;
 import java.util.Scanner;
-=======
-import java.util.*;
->>>>>>> origin/krishna
 
 public class QuickSort
 {

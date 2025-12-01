@@ -1,11 +1,7 @@
 package sorting;
 
-<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.Scanner;
-=======
-import java.util.*;
->>>>>>> origin/krishna
 
 public class BubbleSort
 {

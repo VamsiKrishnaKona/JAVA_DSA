@@ -3,8 +3,6 @@ package arrays.easy;
 import java.util.Arrays;
 import java.util.Scanner;
 
-import java.util.*;
-
 public class SecondOrderElementsInArray
 {
     public static int[] secondOrderElements(int len, int[] arr)

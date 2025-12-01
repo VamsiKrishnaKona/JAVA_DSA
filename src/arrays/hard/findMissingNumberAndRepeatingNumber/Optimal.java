@@ -1,7 +1,5 @@
 package arrays.hard.findMissingNumberAndRepeatingNumber;
 
-import java.util.Arrays;
-
 public class Optimal
 {
     public static void main(String[] args)

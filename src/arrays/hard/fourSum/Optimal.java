@@ -1,12 +1,8 @@
 package arrays.hard.fourSum;
 
-<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-=======
-import java.util.*;
->>>>>>> origin/krishna
 
 public class Optimal
 {

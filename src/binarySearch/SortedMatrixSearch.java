@@ -14,11 +14,6 @@ public class SortedMatrixSearch
                 {18, 21, 23, 26, 30}
         };
         int target = 14;
-                {1,2,3},
-                {4,5,6},
-                {7,8,9}
-        };
-        int target = 9;
         System.out.println(Arrays.toString(search(arr, target)));
     }
 

@@ -1,10 +1,6 @@
 package arrays.medium.Leaders_In_Array;
 
 import java.util.ArrayList;
-<<<<<<< HEAD
-=======
-import java.util.Arrays;
->>>>>>> origin/krishna
 
 public class BruteForce
 {

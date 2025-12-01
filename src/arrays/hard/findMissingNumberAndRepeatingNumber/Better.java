@@ -1,11 +1,6 @@
 package arrays.hard.findMissingNumberAndRepeatingNumber;
 
 import java.util.Arrays;
-<<<<<<< HEAD
-=======
-import java.util.HashMap;
-import java.util.Map;
->>>>>>> origin/krishna
 
 public class Better
 {

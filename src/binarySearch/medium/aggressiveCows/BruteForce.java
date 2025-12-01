@@ -1,10 +1,6 @@
 package binarySearch.medium.aggressiveCows;
 
-<<<<<<< HEAD
 import java.util.Arrays;
-=======
-import java.util.*;
->>>>>>> origin/krishna
 
 public class BruteForce
 {
