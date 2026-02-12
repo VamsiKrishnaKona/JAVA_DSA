@@ -6,7 +6,7 @@ public class Optimal
 {
     public static void main(String[] args)
     {
-        int[] nums = new int[]{1, 2, 9, 3, 5, 0, 0}; //output : {1, 2, 3};
+        int[] nums = new int[]{5, 4, 8, 9, 3, 5, 5, 4, 2, 1}; //output : {1, 2, 3};
 
         int[] ans = nextPermutation(nums);
 

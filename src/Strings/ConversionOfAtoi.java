@@ -3,7 +3,7 @@ package Strings;
 public class ConversionOfAtoi
 {
     public static void main(String[] args) {
-        String s = "   999 nine hundred and ninty nine   ";
+        String s = "-999999999999";
 
         int ans = atoi(s);
 
