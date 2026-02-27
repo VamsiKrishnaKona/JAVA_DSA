@@ -2,9 +2,9 @@ package Bit_Manipulation.basics;
 
 public class IntegerToBinary
 {
-    public static void main(String[] args) {
-
-        int num = 13;
+    public static void main(String[] args)
+    {
+        int num = -13;
 
         System.out.println(binary(num));
     }
