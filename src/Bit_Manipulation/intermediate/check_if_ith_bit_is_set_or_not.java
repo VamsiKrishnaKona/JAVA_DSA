@@ -1,13 +1,11 @@
 package Bit_Manipulation.intermediate;
 
-import Bit_Manipulation.basics.IntegerToBinary;
-
 public class check_if_ith_bit_is_set_or_not
 {
     public static void main(String[] args)
     {
-        int num = 13;
-        int i = 1;
+        int num = 0;
+        int i = 0;
 
         boolean val = check(num, i);
 
@@ -16,14 +14,11 @@ public class check_if_ith_bit_is_set_or_not
 
     public static boolean check(int num, int i)
     {
-        num = num >> i;
-        String binary = IntegerToBinary.binary(num);
-
-        if(binary.charAt(binary.length() - 1) == '1')
+        if(i < 0 || i >= Integer.SIZE)
         {
-            return true;
+            return false;
         }
 
-        return false;
+        return (num & (1 << i)) != 0;
     }
 }
