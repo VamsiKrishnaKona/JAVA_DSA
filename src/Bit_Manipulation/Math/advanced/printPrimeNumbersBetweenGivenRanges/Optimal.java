@@ -9,6 +9,7 @@ public class Optimal
     private static int[] isPrime = new int[MAX + 1];
     private static int[] prefix = new int[MAX + 1];
 
+    //print count of prime in Given Range of Queries
     public static void main(String[] args)
     {
         int[][] queries = {

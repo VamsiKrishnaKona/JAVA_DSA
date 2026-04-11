@@ -6,9 +6,10 @@ import java.util.List;
 
 public class Optimal
 {
+    //Generate primes upto given N = 38.
     public static void main(String[] args)
     {
-        int num = 38;
+        int num = 19;
         List<Integer> list = generatePrimes(num);
         System.out.println(list);
     }
@@ -35,7 +36,6 @@ public class Optimal
         {
             if(primeArray[i] == 1) primes.add(i);
         }
-
         return primes;
     }
 }
