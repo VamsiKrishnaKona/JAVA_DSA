@@ -30,7 +30,6 @@ public class PrintAllSubSequences
     {
         if(i >= nums.length)
         {
-            //System.out.println(subSequence);
             subSequences.add(new ArrayList<>(subSequence));
             return;
         }
@@ -40,7 +39,6 @@ public class PrintAllSubSequences
         generateSubSequence(nums, i + 1, subSequence, subSequences);
 
         subSequence.remove(subSequence.size() - 1);
-        //subSequence.removeLast();
 
         generateSubSequence(nums, i + 1, subSequence, subSequences);
     }

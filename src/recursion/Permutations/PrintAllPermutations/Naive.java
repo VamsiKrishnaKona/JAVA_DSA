@@ -12,7 +12,10 @@ public class Naive
 
         printAllPermutations(nums, permutations);
 
-        System.out.print(permutations);
+        for(List<Integer> perm : permutations)
+        {
+            System.out.println(perm);
+        }
     }
 
     public static void printAllPermutations(int[] nums, List<List<Integer>> permutations)

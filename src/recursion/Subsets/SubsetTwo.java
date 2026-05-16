@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+//Given Array has repeated elements
 public class SubsetTwo
 {
     public static void main(String [] args)

@@ -7,7 +7,7 @@ public class CombinationSumOne
 {
     public static void main(String[] args)
     {
-        int[] nums = new int[]{2, 3, 6, 7};
+        int[] nums = new int[]{2, 3, 5, 7};
         int k = 7;
 
         combinationSums(nums, k);
@@ -15,10 +15,8 @@ public class CombinationSumOne
 
     private static void combinationSums(int[] nums, int k)
     {
-        int i = 0;
         List<Integer> sequence = new ArrayList<>();
-
-        generateCombinations(nums, k, i, sequence);
+        generateCombinations(nums, k, 0, sequence);
     }
 
     private static void generateCombinations(int[] nums, int k, int i, List<Integer> sequence)

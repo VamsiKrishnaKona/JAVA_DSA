@@ -2,7 +2,7 @@ package arrays.medium.sortZerosOnesTwos;
 
 public class Optimal
 {
-    public static void swap(int[] nums, int start, int end)
+    private static void swap(int[] nums, int start, int end)
     {
         int temp = nums[start];
         nums[start] = nums[end];
