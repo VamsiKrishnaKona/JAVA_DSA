@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Optimal
 {
     //10^6
-    private static final int MAX = 1000000;
+    private static final int MAX = 1500000;
     private static int[] isPrime = new int[MAX + 1];
     private static int[] prefix = new int[MAX + 1];
 
@@ -13,7 +13,7 @@ public class Optimal
     public static void main(String[] args)
     {
         int[][] queries = {
-                {1, 10},
+                {0, 2},
                 {10, 50},
                 {100, 200}
         };

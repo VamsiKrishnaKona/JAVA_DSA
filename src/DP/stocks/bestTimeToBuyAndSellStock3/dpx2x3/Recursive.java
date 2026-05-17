@@ -1,4 +1,4 @@
-package DP.stocks.bestTimeToBuyAndSellStock3;
+package DP.stocks.bestTimeToBuyAndSellStock3.dpx2x3;
 
 public class Recursive
 {
