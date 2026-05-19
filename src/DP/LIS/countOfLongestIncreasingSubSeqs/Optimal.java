@@ -7,11 +7,11 @@ public class Optimal
     public static void main(String[] args) {
         int[] nums = {1, 3, 5, 4, 7};
 
-        int len = CountSubSeq(nums);
+        int len = findNumberOfLIS(nums);
         System.out.println(len);
     }
 
-    private static int CountSubSeq(int[] nums)
+    private static int findNumberOfLIS(int[] nums)
     {
         int n =  nums.length;
 
@@ -19,7 +19,6 @@ public class Optimal
         int[] count =  new int[n];
         Arrays.fill(dp, 1);
         Arrays.fill(count, 1);
-        int index = -1;
         int max = -1;
         for(int i = 0; i < n; i++)
         {
@@ -35,13 +34,16 @@ public class Optimal
                     count[i] += count[prev];
                 }
             }
-            if(dp[i] > max)
-            {
-                max = dp[i];
-                index = i;
-            }
+            max = Math.max(max, dp[i]);
         }
 
-        return count[index];
+        int nos =  0;
+
+        for(int i = 0 ; i < n; i++)
+        {
+            if(dp[i] == max) nos += count[i];
+        }
+
+        return nos;
     }
 }
