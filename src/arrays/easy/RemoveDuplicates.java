@@ -33,7 +33,7 @@ public class RemoveDuplicates
             hs.add(arr[i]);
         }
 
-        System.out.print(hs+" ");
+
     }
 
     public static int optimal(int len, int[] arr)
@@ -43,8 +43,6 @@ public class RemoveDuplicates
         for(int j = 1 ; j < arr.length ; j++)
         {
             if(arr[i] != arr[j])
-
-            
             {
                 i++;
                 arr[i] = arr[j];
