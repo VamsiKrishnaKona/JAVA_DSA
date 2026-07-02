@@ -9,7 +9,7 @@ public class LongestSubArrayWithGivenSum
     public static void main(String [] args)
     {
 
-        int[] arr = new int[]{1, -1, 3, 2, -2, -8, 1, 7, 10, 23};
+        int[] arr = new int[]{9, -3, 3, -1, 6, -5};
         int k = 0;
 
         //System.out.println(bruteForce(arr, k));

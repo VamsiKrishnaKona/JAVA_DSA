@@ -2,7 +2,7 @@ package arrays.medium.ArrangeElementBySign;
 
 import java.util.ArrayList;
 
-public class Optimal
+public class   Optimal
 {
     private static ArrayList<Integer> arrange(int[] nums)
     {
