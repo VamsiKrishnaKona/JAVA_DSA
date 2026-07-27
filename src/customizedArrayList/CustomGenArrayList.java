@@ -2,7 +2,7 @@ package customizedArrayList;
 
 import java.util.Arrays;
 
-public class CustomGenArrayList<T extends Number>
+public class CustomGenArrayList<T>
 {
     private Object[] data;
     private static int DEFAULT_SIZE = 10;
