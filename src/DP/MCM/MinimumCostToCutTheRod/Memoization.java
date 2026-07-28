@@ -16,7 +16,7 @@ public class Memoization
         System.out.println(cost);
     }
 
-    private static int  findMinimumCost(int rodLen, int[] cuts)
+    private static int findMinimumCost(int rodLen, int[] cuts)
     {
         int cutsLen = cuts.length;
         List<Integer> nums = new ArrayList<>(Arrays.stream(cuts).boxed().toList()); // {1, 3, 4, 5}
