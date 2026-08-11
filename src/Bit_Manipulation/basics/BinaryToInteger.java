@@ -4,7 +4,7 @@ public class BinaryToInteger
 {
     public static void main(String[] args)
     {
-        String s = "1111111";
+        String s = "111";
 
         System.out.println(integer(s));
     }
