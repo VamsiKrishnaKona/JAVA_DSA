@@ -9,7 +9,7 @@ public class Optimal
 
         boolean check = isSubsetPresentEqualsK(nums, target);
 
-        System.out.println(check);
+        System.out.print(check);
     }
 
     private static boolean isSubsetPresentEqualsK(int[] nums, int target)
