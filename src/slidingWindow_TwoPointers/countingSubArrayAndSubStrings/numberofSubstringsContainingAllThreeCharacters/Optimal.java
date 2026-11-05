@@ -1,4 +1,4 @@
-package slidingWindow_TwoPointers.numberofSubstringsContainingAllThreeCharacters;
+package slidingWindow_TwoPointers.countingSubArrayAndSubStrings.numberofSubstringsContainingAllThreeCharacters;
 
 import java.util.Arrays;
 

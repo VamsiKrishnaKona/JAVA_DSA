@@ -1,4 +1,4 @@
-package slidingWindow_TwoPointers.longestSubstringWithoutRepeatingCharacter;
+package slidingWindow_TwoPointers.longestAndSmallestWindow.longestSubstringWithoutRepeatingCharacter;
 
 import java.util.HashMap;
 import java.util.Map;

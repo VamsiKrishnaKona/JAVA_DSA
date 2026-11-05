@@ -1,4 +1,4 @@
-package slidingWindow_TwoPointers.subarrayWithK_DifferentIntegers;
+package slidingWindow_TwoPointers.countingSubArrayAndSubStrings.subarrayWithK_DifferentIntegers;
 
 import java.util.HashMap;
 import java.util.Map;

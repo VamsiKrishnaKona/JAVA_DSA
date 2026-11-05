@@ -1,4 +1,4 @@
-package slidingWindow_TwoPointers.lengthOfConsecutiveOnes;
+package slidingWindow_TwoPointers.longestAndSmallestWindow.lengthOfConsecutiveOnes;
 
 public class Better
 {

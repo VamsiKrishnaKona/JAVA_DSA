@@ -1,4 +1,4 @@
-package slidingWindow_TwoPointers.longestRepeatingCharacterReplacement;
+package slidingWindow_TwoPointers.longestAndSmallestWindow.longestRepeatingCharacterReplacement;
 
 public class BruteForce
 {

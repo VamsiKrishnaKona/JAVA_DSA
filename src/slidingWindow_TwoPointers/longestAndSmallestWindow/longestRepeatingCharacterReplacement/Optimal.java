@@ -1,9 +1,9 @@
-package slidingWindow_TwoPointers.longestRepeatingCharacterReplacement;
+package slidingWindow_TwoPointers.longestAndSmallestWindow.longestRepeatingCharacterReplacement;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Better
+public class Optimal
 {
     public static void main(String[] args) {
         String s = "AABABBA";
@@ -26,32 +26,15 @@ public class Better
             map.put(s.charAt(r), map.getOrDefault(s.charAt(r), 0) + 1);
             maxFreq = Math.max(maxFreq, map.get(s.charAt(r)));
 
-            while((r - l + 1) - maxFreq > k)
+            if((r - l + 1) - maxFreq > k)
             {
                 map.put(s.charAt(l), map.getOrDefault(s.charAt(l), 0) - 1);
                 if(map.get(s.charAt(l)) <= 0) map.remove(s.charAt(l));
-                maxFreq = findFreq(map);
                 l++;
             }
-
-            if((r - l + 1) - maxFreq <= k)
-            {
-                maxLen = Math.max(maxLen, r - l + 1);
-            }
+            maxLen = Math.max(maxLen, r - l + 1);
             r++;
         }
         return maxLen;
-    }
-
-    private static int findFreq(Map<Character, Integer> map)
-    {
-        int freq = 0;
-
-        for(Map.Entry<Character, Integer> entry : map.entrySet())
-        {
-            freq = Math.max(freq, entry.getValue());
-        }
-
-        return freq;
     }
 }

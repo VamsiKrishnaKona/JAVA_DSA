@@ -1,4 +1,4 @@
-package slidingWindow_TwoPointers.binarySubarraysWithSum;
+package slidingWindow_TwoPointers.countingSubArrayAndSubStrings.binarySubarraysWithSum;
 
 public class BruteForce
 {

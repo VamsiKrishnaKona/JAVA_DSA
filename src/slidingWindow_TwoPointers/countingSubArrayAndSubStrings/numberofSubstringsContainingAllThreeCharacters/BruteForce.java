@@ -1,10 +1,10 @@
-package slidingWindow_TwoPointers.numberofSubstringsContainingAllThreeCharacters;
+package slidingWindow_TwoPointers.countingSubArrayAndSubStrings.numberofSubstringsContainingAllThreeCharacters;
 
-public class OptimizedBruteForce
+public class BruteForce
 {
     public static void main(String[] args)
     {
-        String s = "abcabc";
+        String s = "bbacba";
         int noOfSubstrings = findNumberOfSubStrings(s);
         System.out.print(noOfSubstrings);
     }
@@ -23,9 +23,9 @@ public class OptimizedBruteForce
 
                 if(hash[0] + hash[1] + hash[2] == 3)
                 {
-                    count += 1 + (n - (j + 1));
-                    break;
+                    count++;
                 }
+
             }
         }
 
