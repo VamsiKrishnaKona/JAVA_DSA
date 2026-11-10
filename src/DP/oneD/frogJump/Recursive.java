@@ -8,7 +8,7 @@ public class Recursive
 
         int energyDrained = findDrainedEnergy(heights);
 
-        System.out.println(energyDrained);
+        System.out.print(energyDrained);
     }
 
     private static int findDrainedEnergy(int[] heights)
